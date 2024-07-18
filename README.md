@@ -1,4 +1,4 @@
-I # README.md
+## README.md
 
 ## JavaScript Learning Journey
 
@@ -71,10 +71,10 @@ javascript-learning-journey/
 └── README.md
 ```
 
-- **`basics/`**: Contains fundamental JavaScript examples.
-- **`exercises/`**: Contains practice exercises to reinforce learning.
-- **`projects/`**: Contains larger projects to apply JavaScript knowledge.
-- **`notes/`**: Contains notes and summaries of what I've learned.
+- `basics/`: Contains fundamental JavaScript examples.
+- `exercises/`: Contains practice exercises to reinforce learning.
+- `projects/`: Contains larger projects to apply JavaScript knowledge.
+- `notes/`: Contains notes and summaries of what I've learned.
 
 ## Learning Resources
 
@@ -106,8 +106,8 @@ If you have any questions or suggestions, feel free to open an issue or reach ou
 ## Contact
 
 You can reach me at: 
-- GitHub: [your-username](https://github.com/ritikrk96)
-- Email: [your-email](ritikkumar9525586511@gmail.com)
+- GitHub: [https://github.com/ritikrk96]()
+- Email: [ritikkumar9525586511@gmail.com]()
 
 ---
 

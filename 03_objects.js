@@ -84,21 +84,37 @@ const person2 = {
 // const person3 = { ...person1, ...person2 }
 // console.log(person3)
 
-const users_array = [
-    { id: 1, name: "ritik" },
-    { id: 2, name: "Tingu" },
-    { id: 3, name: "Monty" },
-    { id: 4, name: "Bakasur" },
-];
+// const users_array = [
+//     { id: 1, name: "ritik" },
+//     { id: 2, name: "Tingu" },
+//     { id: 3, name: "Monty" },
+//     { id: 4, name: "Bakasur" },
+// ];
 
 // console.log(users_array[1].name)
 
-const tinderUser = []
-tinderUser.id = 1;
-tinderUser.name = "nahiPata";
-tinderUser.isloggedIn = false;
+// const tinderUser = []
+// tinderUser.id = 1;
+// tinderUser.name = "nahiPata";
+// tinderUser.isloggedIn = false;
 
 // console.log(tinderUser)
 // console.log(Object.keys(tinderUser))
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
+
+
+// const course = {
+//     name: "JavaScript",
+//     level: "intermediate",
+//     duration: 3,
+//     instructor: "Ritik"
+// }
+// const {instructor: ins} = course;
+// console.log(ins);
+
+// const navbar = ({ level }) => {
+//     console.log(level)
+// }
+
+// navbar(course)

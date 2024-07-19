@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Element</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    
+    <div class="hel" style="margin: 0 auto;">
+        <h1>Creating a Element</h1>
+    </div>
+
+
+    <script>
+        const div = document.createElement('div')
+        // console.log(div)
+        div.innerHTML = 'Hello World';
+        div.className = "main";
+        div.id = "main";
+        // const hel = document.createTextNode("Hello World!");
+        // div.appendChild(hel)
+        document.body.appendChild(div)
+    </script>
+</body>
+</html>

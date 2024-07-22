@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px 0;
+            justify-content: space-around;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bolder;
+        }
+
+        .box {
+            display: flex;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            border-radius: 10px;
+        }
+
+        .box1 {
+            background-color: #ff0000;
+            color: yellow;
+        }
+
+        .box2 {
+            background-color: #212121;
+            color: #fff;
+        }
+
+        .box3 {
+            background-color: #3300ff;
+            color: aqua;
+        }
+
+        .box4 {
+            background-color: #eeff00;
+        }
+
+        button {
+            border-radius: 10px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="heading">
+        Color Scheme Switcher
+    </h2>
+    <div class="container">
+        <button onclick="changeColor('#ff0000', 'yellow')">
+            <div class="box box1">Red</div>
+        </button>
+        <button onclick="changeColor('#212121', '#fff')">
+            <div class="box box2">Black</div>
+        </button>
+        <button onclick="changeColor('#3300ff', 'aqua')">
+            <div class="box box3">Blue</div>
+        </button>
+        <button onclick="changeColor('#eeff00', 'black')">
+            <div class="box box4">Yellow</div>
+        </button>
+    </div>
+
+    <script>
+        function changeColor(bgColor, textColor) {
+            document.body.style.backgroundColor = bgColor;
+            document.body.style.color = textColor;
+        }
+    </script>
+</body>
+
+</html>
